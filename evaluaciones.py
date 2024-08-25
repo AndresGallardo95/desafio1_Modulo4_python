@@ -1,4 +1,8 @@
-# evaluaciones.py
+"""
+Este script realiza diversas evaluaciones sobre la clase Pizza, 
+creada en el archivo pizza.py, para validar su correcto funcionamiento 
+según los requerimientos especificados en el desafío.
+"""
 
 from pizza import Pizza
 
@@ -20,7 +24,7 @@ print("Ingrediente proteico:", mi_pizza.ingrediente_proteico)
 print("Tipo de masa:", mi_pizza.tipo_de_masa)
 print("¿Es una pizza válida?", mi_pizza.es_valida)
 
-# e) Mostrar si la clase Pizza es una pizza válida (debe generar un error)
+# e) Mostrar si la clase Pizza es válida sin crear una instancia (debe generar un error)
 try:
     print("¿Es la clase Pizza válida?", Pizza.es_valida)
 except AttributeError as e:
