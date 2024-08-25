@@ -1,4 +1,4 @@
-﻿# Pizzería: Sistema de Gestión de Pedidos de Pizza
+# Pizzería: Sistema de Gestión de Pedidos de Pizza
 
 Este proyecto es un prototipo de un sistema de gestión de pedidos de pizza para una cadena de pizzerías. El sistema permite a los clientes seleccionar los ingredientes y el tipo de masa de su pizza, y valida si la combinación seleccionada es válida según las reglas del negocio.
 
@@ -10,29 +10,18 @@ El proyecto está dividido en varios archivos para mejorar la modularidad y clar
 - **`pizza.py`**: Define la clase `Pizza`, que incluye métodos para validar ingredientes y gestionar el pedido de una pizza.
 - **`evaluaciones.py`**: Realiza diversas evaluaciones sobre la clase `Pizza`, como mostrar atributos de clase, validar ingredientes específicos, y manejar pedidos de pizzas.
 
-## Instalación
 
-Para ejecutar este proyecto, asegúrate de tener instalado Python 3 en tu máquina. No se requieren dependencias adicionales.
-
-Para ejecutar este proyecto, sigue estos pasos:
-
-1. Clona este repositorio usando el siguiente comando en tu terminal:
-
-   ```bash
-   git clone https://github.com/AndresGallardo95/desafio1_Modulo4_python.git
-
-2. Navega hasta el directorio del proyecto.
-
-## Uso
 
 ### 1. Ingredientes
 
 El archivo `ingredientes.py` define las listas de ingredientes disponibles en la pizzería:
 
-```python
-ingredientes_proteicos_posibles = ["pollo", "vacuno", "carne vegetal"]
-ingredientes_vegetales_posibles = ["tomate", "aceitunas", "champiñones"]
-tipos_de_masa_posibles = ["tradicional", "delgada"]
+
+- **`ingredientes_proteicos_posibles = ["pollo", "vacuno", "carne vegetal"] `**
+- **`ingredientes_vegetales_posibles = ["tomate", "aceitunas", "champiñones"]`**
+- **`tipos_de_masa_posibles = ["tradicional", "delgada"]`**
+
+
 
 ### 2. Clase `Pizza`
 
@@ -61,7 +50,21 @@ El archivo `evaluaciones.py` realiza diversas pruebas sobre la clase `Pizza`, y 
 Este archivo proporciona una manera interactiva y automatizada de validar el comportamiento de la clase `Pizza` según las reglas de negocio establecidas.
 
 
+## Instalación
+
+Para ejecutar este proyecto, asegúrate de tener instalado Python 3 en tu máquina. No se requieren dependencias adicionales.
+
+Para ejecutar este proyecto, sigue estos pasos:
+
+1. Clona este repositorio usando el siguiente comando en tu terminal:
+
+   ```bash
+   git clone https://github.com/AndresGallardo95/desafio1_Modulo4_python.git
+
+2. Navega hasta el directorio del proyecto.
+
 ## Autor
 
 Andrés Gallardo Reuque
+
 
