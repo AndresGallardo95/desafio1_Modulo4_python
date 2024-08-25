@@ -14,7 +14,13 @@ El proyecto está dividido en varios archivos para mejorar la modularidad y clar
 
 Para ejecutar este proyecto, asegúrate de tener instalado Python 3 en tu máquina. No se requieren dependencias adicionales.
 
-1. Clona este repositorio o descarga los archivos.
+Para ejecutar este proyecto, sigue estos pasos:
+
+1. Clona este repositorio usando el siguiente comando en tu terminal:
+
+   ```bash
+   git clone https://github.com/AndresGallardo95/desafio1_Modulo4_python.git
+
 2. Navega hasta el directorio del proyecto.
 
 ### 2. Clase `Pizza`
