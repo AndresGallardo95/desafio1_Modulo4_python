@@ -1,10 +1,12 @@
 # pizza.py
 
+from ingredientes import ingredientes_proteicos_posibles, ingredientes_vegetales_posibles, tipos_de_masa_posibles
+
 class Pizza:
     # Atributos de clase
-    ingredientes_proteicos_posibles = ["pollo", "vacuno", "carne vegetal"]
-    ingredientes_vegetales_posibles = ["tomate", "aceitunas", "champiñones"]
-    tipos_de_masa_posibles = ["tradicional", "delgada"]
+    ingredientes_proteicos_posibles = ingredientes_proteicos_posibles
+    ingredientes_vegetales_posibles = ingredientes_vegetales_posibles
+    tipos_de_masa_posibles = tipos_de_masa_posibles
     
     def __init__(self):
         # Atributos de instancia
