@@ -1,20 +1,20 @@
-"""
-Este script realiza diversas evaluaciones sobre la clase Pizza, 
-creada en el archivo pizza.py, para validar su correcto funcionamiento 
-según los requerimientos especificados en el desafío.
-"""
+# evaluaciones.py
 
 from pizza import Pizza
 
-# a) Mostrar los valores de los atributos de clase
+# a) Mostrar los valores de los atributos de clase al inicio, antes de interactuar con el usuario
 print("Ingredientes proteicos posibles:", Pizza.ingredientes_proteicos_posibles)
 print("Ingredientes vegetales posibles:", Pizza.ingredientes_vegetales_posibles)
 print("Tipos de masa posibles:", Pizza.tipos_de_masa_posibles)
 
-# b) Verificar si "salsa de tomate" está en la lista ["salsa de tomate", "salsa bbq"]
-print("¿Está 'salsa de tomate' en la lista?", Pizza.validar_ingrediente("salsa de tomate", ["salsa de tomate", "salsa bbq"]))
+# Preguntar al usuario si quiere realizar la validación de "salsa de tomate"
+validar_salsa = input("¿Deseas verificar si 'salsa de tomate' está en una lista? (sí/no): ").strip().lower()
 
-# c) Crear una instancia de Pizza y realizar un pedido
+if validar_salsa == "sí":
+    # b) Verificar si "salsa de tomate" está en la lista ["salsa de tomate", "salsa bbq"]
+    print("¿Está 'salsa de tomate' en la lista?", Pizza.validar_ingrediente("salsa de tomate", ["salsa de tomate", "salsa bbq"]))
+
+# c) Crear una instancia de Pizza y realizar un pedido (interacción con el usuario)
 mi_pizza = Pizza()
 mi_pizza.realizar_pedido()
 
@@ -24,7 +24,7 @@ print("Ingrediente proteico:", mi_pizza.ingrediente_proteico)
 print("Tipo de masa:", mi_pizza.tipo_de_masa)
 print("¿Es una pizza válida?", mi_pizza.es_valida)
 
-# e) Mostrar si la clase Pizza es válida sin crear una instancia (debe generar un error)
+# e) Intentar acceder al atributo de clase (debe generar un error)
 try:
     print("¿Es la clase Pizza válida?", Pizza.es_valida)
 except AttributeError as e:
