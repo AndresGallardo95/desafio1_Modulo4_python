@@ -48,3 +48,9 @@ El archivo `evaluaciones.py` realiza diversas pruebas sobre la clase `Pizza`, y 
 - **e) Mostrar si la clase `Pizza` es válida sin crear una instancia (debe generar un error)**: Intenta acceder al atributo de instancia `es_valida` directamente desde la clase `Pizza` sin crear una instancia, lo que genera un error que es capturado y mostrado.
 
 Este archivo proporciona una manera interactiva y automatizada de validar el comportamiento de la clase `Pizza` según las reglas de negocio establecidas.
+
+
+## Autor
+
+Andrés Gallardo Reuque
+
