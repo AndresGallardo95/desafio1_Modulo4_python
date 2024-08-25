@@ -23,6 +23,17 @@ Para ejecutar este proyecto, sigue estos pasos:
 
 2. Navega hasta el directorio del proyecto.
 
+## Uso
+
+### 1. Ingredientes
+
+El archivo `ingredientes.py` define las listas de ingredientes disponibles en la pizzería:
+
+```python
+ingredientes_proteicos_posibles = ["pollo", "vacuno", "carne vegetal"]
+ingredientes_vegetales_posibles = ["tomate", "aceitunas", "champiñones"]
+tipos_de_masa_posibles = ["tradicional", "delgada"]
+
 ### 2. Clase `Pizza`
 
 La clase `Pizza`, definida en `pizza.py`, permite crear objetos de pizza y validar las selecciones del usuario. Los principales métodos de esta clase son:
